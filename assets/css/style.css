@@ -6,8 +6,8 @@
 }
 
 .header-fluid1 {
-    background-image: url(//assets/images/banner.jpg);
-    min-height: 100px;
+    background-color: blue;
+    min-height: 200px;
 }
 
 #second{
