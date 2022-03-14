@@ -1,11 +1,11 @@
-#Portfolio
+## Portfolio
 
-##Purpose
+## Purpose
 
 A website built to view a potenital employee's deloplyed portfolio of work samples
 So that a potential employer can review samples of their work and assess whether they are a good candidate for an open position
 
-Acceptance Criteria
+## Acceptance Criteria
 
 Given I need to sample a potential employee's previous work
 When I load their portfolio
@@ -25,8 +25,8 @@ Then I am presented with a responsive layout that adapts to my viewport
 *HTML
 *CSS
 
-##Website
+## Website
 https://asad-khilji.github.io/Portfolio/
 
-##Contribution
+## Contribution
 Made with ❤️ By Asad Khilji
