@@ -22,8 +22,8 @@ When I resize the page or view the site on various screens and devices
 Then I am presented with a responsive layout that adapts to my viewport
 
 ## Built With
-*HTML
-*CSS
+* HTML
+* CSS
 
 ## Website
 https://asad-khilji.github.io/Portfolio/
