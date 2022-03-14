@@ -6,7 +6,7 @@
 }
 
 #second{
-    width: 20%;
+    width: 25%;
     height: 50%;
     background: rgb(80, 176, 221);
     padding: 10px;
@@ -69,46 +69,19 @@ img {
     padding-top: 20px;
 }
 
-.mob-wrapper {
-    display: none;
-}
-
-.hide-desktop-only {
-    display: none;
-}
-
 /* Tablet View */
 @media (max-width: 768px) {
 
     nav {
         display: none;
     }
-
-    .hide-desktop-only {
-        display: block;
-    }
     
     .col-4 {
         width: 50%;
     }
-    
-    .mob-wrapper {
-        display: block;
-        padding-right: 30px;
-    }
-    
-    .mob-nav {
-        display: none;
-        position: absolute;
-        padding-top: 10px;
-    }
 
-    .navbutton {
-        display: block;
-        background-color: coral;
-        padding: 15px 30px;
-        margin-left: -20px;
-        text-align: center;
+    #second{
+        width: 50%;
     }
 
 }
@@ -120,8 +93,8 @@ img {
         width: 100%;
     }
 
-    .hide-mobile {
-        display: none;
+    #second{
+        width: 100%;
     }
 
 }
