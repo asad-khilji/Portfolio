@@ -5,6 +5,11 @@
     padding-bottom: 10px;
 }
 
+.header-fluid1 {
+    background-image: url(//assets/images/banner.jpg);
+    min-height: 100px;
+}
+
 #second{
     width: 20%;
     height: 50%;
