@@ -1,8 +1,9 @@
-User Story
+#Portfolio
 
-As an employer
-I want to view a potential employee's deployed portfolio of work samples
-So that I can review samples of their work and assess whether they're a good candidate for an open position
+##Purpose
+
+A website built to view a potenital employee's deloplyed portfolio of work samples
+So that a potential employer can review samples of their work and assess whether they are a good candidate for an open position
 
 Acceptance Criteria
 
@@ -19,3 +20,13 @@ When I click on the images of the applications
 Then I am taken to that deployed application
 When I resize the page or view the site on various screens and devices
 Then I am presented with a responsive layout that adapts to my viewport
+
+## Built With
+*HTML
+*CSS
+
+##Website
+https://asad-khilji.github.io/Portfolio/
+
+##Contribution
+Made with ❤️ By Asad Khilji
