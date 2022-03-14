@@ -1,0 +1,70 @@
+.header-fluid {
+    background-color: rgb(58, 57, 57);
+    min-height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#second{
+    width: 20%;
+    height: 50%;
+    background: rgb(80, 176, 221);
+    padding: 10px;
+}
+
+h1 {
+    text-align: right;
+}
+
+nav {
+   float: right;
+   padding-top: 40px;
+   width: 35%;
+}
+
+nav a {
+    padding: 10px;
+    color: rgb(80, 176, 221);
+    font-size: x-large;
+}
+
+main {
+    max-width: 1025px;
+    margin: auto;
+}
+
+img {
+    float: left;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    min-width: 150px;
+    text-align: left;
+}
+
+.col-4 h1 {
+    text-align: left;
+    color: rgb(69, 69, 211);
+}
+
+.col-2 p {
+    padding-top: 20px;
+}
+
+.col-4 p {
+    padding-top: 20px;
+}
