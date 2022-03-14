@@ -6,7 +6,7 @@
 }
 
 #second{
-    width: 25%;
+    width: 20%;
     height: 50%;
     background: rgb(80, 176, 221);
     padding: 10px;
@@ -81,20 +81,24 @@ img {
     }
 
     #second{
-        width: 50%;
+        width: 40%;
+    }
+
+    img {
+        float: none;
     }
 
 }
 
 /* Mobile View */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 
     .col-4 {
         width: 100%;
     }
 
     #second{
-        width: 100%;
+        width: 80%;
     }
 
 }
