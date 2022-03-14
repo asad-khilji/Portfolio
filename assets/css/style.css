@@ -89,8 +89,50 @@ img {
     color: black;
 }
 
+.card2 h2, p {
+    text-decoration: none;
+    color: black;
+}
+
+.card3 h2, p {
+    text-decoration: none;
+    color: black;
+}
+
+.card4 h2, p {
+    text-decoration: none;
+    color: black;
+}
+
+.card5 h2, p {
+    text-decoration: none;
+    color: black;
+}
+
 .card2 {
     background-position: bottom;
+    min-height: 250px;
+    width: 50%;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+}
+
+.card3 {
+    background-position: bottom;
+    min-height: 250px;
+    width: 50%;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+}
+
+.card4 {
+    background-position: bottom;
+    min-height: 250px;
+    width: 50%;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+}
+
+.card5 {
+    background-image: url(//assets/images/hori.png);
+    background-position: center;
     min-height: 250px;
     width: 50%;   
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
@@ -111,23 +153,49 @@ img {
     }
 
     #second{
-        width: 40%;
+        width: 60%;
     }
 
     img {
         display: none;
     }
 
+    .col-1 h1 {
+        text-align: center;
+    }
+
     .col-1 {
         flex-basis: 50%;
+        text-align: center;
     }
     
     .col-3 {
         flex-basis: 50%;
+        text-align: center;
+    }
+
+    .card1 {
+        text-align: center;
     }
 
     .card2 {
-        width: 100%;   
+        width: 100%; 
+        text-align: center;  
+    }
+
+    .card3 {
+        width: 100%; 
+        text-align: center;  
+    }
+
+    .card4 {
+        width: 100%; 
+        text-align: center;  
+    }
+
+    .card5 {
+        width: 100%; 
+        text-align: center;  
     }
 
 }
@@ -136,7 +204,11 @@ img {
 @media (max-width: 500px) {
 
     #second{
-        width: 80%;
+        width: 95%;
+    }
+
+    h1 {
+        text-align: center;
     }
 
     .col-1 {

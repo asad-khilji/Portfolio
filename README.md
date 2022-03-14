@@ -2,7 +2,7 @@
 
 ## Purpose
 
-* A website built to view a potenital employee's deloplyed portfolio of work samples
+* A website built to view a potenital employee's deployed portfolio of work samples
 * So that a potential employer can review samples of their work and assess whether they are a good candidate for an open position
 
 ## Acceptance Criteria
