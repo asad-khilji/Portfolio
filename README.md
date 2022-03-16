@@ -28,5 +28,10 @@
 ## Website
 https://asad-khilji.github.io/Portfolio/
 
+## Screenshot
+
+![screenshot.jpg](https://github.com/asad-khilji/Portfolio/blob/main/assets/images/screenshot.jpg)
+![screenshot1.jpg](https://github.com/asad-khilji/Portfolio/blob/main/assets/images/screenshot1.jpg)
+
 ## Contribution
 Made with ❤️ By Asad Khilji
