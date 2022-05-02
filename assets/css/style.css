@@ -49,6 +49,13 @@ body {
     padding: 10px;
 }
 
+#seventh{
+    width: 18%;
+    height: 45%;
+    background: lime;
+    padding: 10px;
+}
+
 #second{
     width: 20%;
     height: 50%;
