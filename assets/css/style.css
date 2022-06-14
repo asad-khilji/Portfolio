@@ -138,6 +138,8 @@ img {
     border-style: outset;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-image: url(../images/full-stack.jpg);
+    background-size: cover;
 }
 
 .card1 h2, p {
@@ -174,6 +176,8 @@ img {
     border-style: outset;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-image: url(../images/front-end.jpg);
+    background-size: cover;
 }
 
 .card3 {
@@ -208,6 +212,8 @@ img {
     border-style: outset;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-image: url(../images/horiseon.jpg);
+    background-size: cover;
 }
 
 .card2 h2, p {
