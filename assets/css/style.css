@@ -138,8 +138,7 @@ img {
     border-style: outset;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url(../images/full-stack.jpg);
-    background-size: cover;
+    background-color: gray;
 }
 
 .card1 h2, p {
@@ -189,6 +188,8 @@ img {
     border-style: outset;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-image: url(../images/full-stack.jpg);
+    background-size: cover;
 }
 
 .card4 {
