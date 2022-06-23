@@ -235,10 +235,33 @@ img {
     right: 50%;
 }
 
+.verticalLine3 {
+    height: 800px;
+    border-right: 3px solid rgb(80, 94, 221);
+    right: 50%;
+}
+
 .verticalLine2 {
     height: 150px;
     border-right: 3px solid rgb(80, 94, 221);
     right: 50%;
+}
+
+h2, h3 {
+    color: black;
+}
+
+.name{
+    text-align: center;
+}
+
+.space{
+    margin-left: 40px;
+}
+
+.space-1{
+    margin-left: 40px;
+    margin-top: -10px;
 }
 
 
