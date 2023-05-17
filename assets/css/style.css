@@ -97,10 +97,6 @@ main {
     color: rgb(84, 84, 180);
 }
 
-img {
-    float: left;
-}
-
 .container {
     max-width: 1300px;
     margin: auto;
@@ -128,6 +124,8 @@ img {
 .contact {
     padding-top: 50px;
     text-decoration: underline;
+    font-size: 18px;
+    color: rgb(13, 46, 46);
 }
 
 .cards {
