@@ -145,7 +145,8 @@ img {
     border-style: outset;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: gray;
+    background-image: url(../images/taskinator.png);
+    background-size: cover;
 }
 
 .card1 h2, p {
@@ -182,7 +183,7 @@ img {
     border-style: outset;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url(../images/front-end.jpg);
+    background-image: url(../images/unik.png);
     background-size: cover;
 }
 
@@ -195,7 +196,7 @@ img {
     border-style: outset;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url(../images/full-stack.jpg);
+    background-image: url(../images/roadrunner.png);
     background-size: cover;
 }
 
