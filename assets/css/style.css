@@ -21,35 +21,35 @@ body {
 }
 
 #first{
-    width: 30%;
+    width: 50%;
     height: 45%;
     background: lime;
     padding: 10px;
 }
 
 #third{
-    width: 60%;
+    width: 80%;
     height: 45%;
     background: lime;
     padding: 10px;
 }
 
 #fourth{
-    width: 60%;
+    width: 80%;
     height: 45%;
     background: lime;
     padding: 10px;
 }
 
 #fifth{
-    width: 40%;
+    width: 60%;
     height: 45%;
     background: lime;
     padding: 10px;
 }
 
 #sixth{
-    width: 40%;
+    width: 60%;
     height: 40%;
     background: lime;
     padding: 10px;
@@ -279,12 +279,37 @@ h2, h3 {
 /* Tablet View */
 @media (max-width: 768px) {
 
+    .verticalLine {
+        border: none;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .verticalLine1 {
+        border: none;
+        height: auto;
+        padding: 10px;
+       
+    }
+    
+    .verticalLine3 {
+        border: none;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .verticalLine2 {
+        border: none;
+        height: auto;
+        padding: 10px;
+    }
+    
     nav {
         display: none;
     }
 
     #second{
-        width: 60%;
+        width: 100%;
     }
 
     img {
@@ -292,34 +317,28 @@ h2, h3 {
     }
 
     .col-1 {
-        flex-basis: 50%;
-        text-align: center;
+        flex-basis: 100%;
     }
     
     .col-3 {
-        flex-basis: 50%;
-        text-align: center;
+        flex-basis: 100%;
     }
 
 
     .card2 {
-        width: 100%;
-        text-align: center;   
+        width: 100%;  
     }
 
     .card3 {
         width: 100%;
-        text-align: center;
     }
 
     .card4 {
         width: 100%; 
-        text-align: center;
     }
 
     .card5 {
         width: 100%; 
-        text-align: center;
     }
 
 }
@@ -328,7 +347,7 @@ h2, h3 {
 @media (max-width: 500px) {
 
     #second{
-        width: 95%;
+        width: 100%;
     }
 
     h1 {
