@@ -241,7 +241,7 @@ main {
 }
 
 .verticalLine1 {
-    height: 720px;
+    height: 800px;
     border-right: 3px solid rgb(80, 94, 221);
     right: 50%;
 }
