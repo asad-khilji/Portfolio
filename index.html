@@ -131,20 +131,36 @@
       </div>
     </section>
 
-    <!-- About -->
+    <!-- About (updated with collapsible) -->
     <section id="about-me" class="intro">
       <div class="flex-row">
         <h2 class="section-title primary-border">About Me</h2>
       </div>
-      <div class="flex-row">
-        <p>
-          I’m an independent developer specializing in <strong>front-end customization</strong> for Shopify and modern stacks.
-          I build accessible, fast, and SEO-ready pages using clean <strong>HTML</strong> and <strong>CSS</strong>. I love shipping pixel-perfect UI,
-          performant themes, and custom features that move business metrics.
-        </p>
-        <p>
-          I stay current with modern web standards, performance optimization, and UX best practices to ensure your site ranks and converts.
-        </p>
+
+      <div class="about-collapsible">
+        <!-- no-JS default; JS below only syncs aria-expanded -->
+        <input type="checkbox" id="aboutToggle" class="about-toggle" hidden>
+
+        <div id="about-content" class="about-content" aria-live="polite">
+          <p>
+            I’m an independent developer specializing in <strong>front-end customization</strong> for Shopify and modern stacks.
+            I build accessible, fast, and SEO-ready pages using clean <strong>HTML</strong> and <strong>CSS</strong>. I love shipping
+            pixel-perfect UI, performant themes, and custom features that move business metrics.
+          </p>
+          <p>
+            I stay current with modern web standards, performance optimization, and UX best practices to ensure your site ranks and converts.
+          </p>
+        </div>
+
+        <label for="aboutToggle"
+               class="about-toggle-label"
+               role="button"
+               aria-controls="about-content"
+               aria-expanded="false">
+          <span class="more">Show more</span>
+          <span class="less">Show less</span>
+          <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5"/></svg>
+        </label>
       </div>
     </section>
 
@@ -439,7 +455,16 @@
       </script>
     </footer>
 
-    <!-- Accessible helper class (add to your CSS) -->
-    <!-- .visually-hidden{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap;} -->
+    <!-- Accessibility: keep aria-expanded in sync for SR users -->
+    <script>
+      (function(){
+        var t = document.getElementById('aboutToggle');
+        var lbl = document.querySelector('label[for="aboutToggle"]');
+        if (!t || !lbl) return;
+        function sync(){ lbl.setAttribute('aria-expanded', t.checked ? 'true' : 'false'); }
+        sync();
+        t.addEventListener('change', sync);
+      })();
+    </script>
   </body>
 </html>
