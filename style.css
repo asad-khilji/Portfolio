@@ -309,3 +309,43 @@ header nav ul li a {
   header .brand img { max-height: 44px; }
 }
 
+/* --- Footer styling improvements --- */
+footer {
+  background: var(--primary-color);
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   /* vertically align text + nav */
+  flex-wrap: wrap;
+}
+
+footer p {
+  margin: 0;
+  color: #000;           /* or var(--secondary-color) if you prefer */
+  font-size: 0.95rem;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;             /* spacing between links */
+  margin: 0;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline;
+}
+
+footer nav ul li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
