@@ -267,3 +267,45 @@ section{padding:60px}
 @media (prefers-reduced-motion: reduce){
   *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 }
+
+/* --- Header logo & nav fixes --- */
+header .brand {
+  display: flex;
+  align-items: center;
+}
+
+header .brand img {
+  /* hard cap the logo size */
+  max-height: 56px;          /* adjust to taste: 48–64px works well */
+  width: auto;
+  height: auto;
+  aspect-ratio: auto;        /* prevents stretching */
+  display: block;
+  border-radius: 6px;        /* optional */
+}
+
+/* give the logo a little breathing room from the left edge */
+header {
+  padding-left: 20px;
+}
+
+/* tighten nav spacing & size so it doesn't feel oversized */
+header nav ul { gap: 8px 20px; }
+header nav ul li a {
+  font-size: clamp(0.95rem, 0.7rem + 0.6vw, 1.1rem);
+  padding: 10px 12px;        /* good tap target without looking huge */
+  border-radius: 10px;
+}
+
+/* prevent the hero from sitting too close under the sticky header */
+.hero { scroll-margin-top: 80px; }
+
+/* smaller screens: keep logo sensible and center header nicely */
+@media (max-width: 980px) {
+  header .brand img { max-height: 48px; }
+  header { padding-left: 12px; }
+}
+@media (max-width: 575px) {
+  header .brand img { max-height: 44px; }
+}
+
