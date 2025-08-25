@@ -456,5 +456,24 @@ footer nav ul li a:hover {
   }
 }
 
+/* --- About Me: force single-column layout --- */
+#about-me .flex-row {           /* kill the row layout */
+  display: block;               /* or: flex-direction: column; gap: 1rem; */
+}
+
+#about-me p {                   /* readable width + spacing */
+  max-width: 70ch;
+  width: 100%;
+  margin: 0 auto 1rem;
+  text-align: left;
+  color: #000;                  /* matches your later rule */
+}
+
+/* optional: tighten spacing under the section title */
+#about-me .section-title {
+  margin-bottom: 24px;
+}
+
+
 
 
