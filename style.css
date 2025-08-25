@@ -348,4 +348,113 @@ footer nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* --- Mobile Styles Fix --- */
+@media screen and (max-width: 768px) {
+  /* Header */
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  header .brand img {
+    max-height: 48px;
+    margin-bottom: 8px;
+  }
+
+  header nav ul {
+    gap: 15px;
+  }
+
+  header nav ul li a {
+    font-size: 1rem;
+    padding: 6px 10px;
+  }
+
+  /* Hero */
+  .hero-cta h2 {
+    font-size: 2rem;  /* shrink heading */
+    text-align: center;
+  }
+
+  .hero-cta {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 1rem;
+  }
+
+  .hero-form {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* About Me paragraph fix: single column */
+  #about-me .flex-row {
+    flex-direction: column;
+    text-align: center;
+  }
+  #about-me p {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  /* Portfolio spacing */
+  .trainers {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .trainer {
+    flex: 1 1 100%;
+  }
+
+  .trainer img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  .trainer-bio h3 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  /* Contact section */
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-form {
+    order: 2;
+    width: 100%;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  /* Footer cleanup */
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  footer nav ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  footer nav ul li {
+    display: inline-block;
+  }
+}
+
+
 
