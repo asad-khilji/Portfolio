@@ -13,7 +13,7 @@
     <link rel="canonical" href="https://www.asadkhilji.org/blogs.html/post-1.html" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="./images/AK.jpg" />
+    <link rel="icon" type="image/png" href="../images/AK.jpg" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="article" />
@@ -74,6 +74,37 @@
       .prev-next { display:flex; justify-content:space-between; gap:12px; margin-top:2rem; }
       .prev-next a { display:inline-block; }
       .post-footer-cta { margin-top:2.25rem; }
+      /* Make all sections have a white background */
+/* Force white background on the two sections on this page */
+main > section.hero,
+main > section {
+  background-color: #fff;
+}
+
+/* Add extra padding on mobile only */
+@media (max-width: 768px) {
+  main > section.hero,
+  main > section {
+    padding: 20px; /* adjust to 24px or 32px if you want more spacing */
+    box-sizing: border-box;
+  }
+}
+
+/* If your global CSS is still winning, uncomment the !important version below */
+/*
+main > section.hero,
+main > section.contact {
+  background-color: #fff !important;
+}
+@media (max-width: 768px) {
+  main > section.hero,
+  main > section.contact {
+    padding: 16px !important;
+  }
+}
+*/
+
+
     </style>
   </head>
 
@@ -83,7 +114,7 @@
       <h1 class="visually-hidden">Asad Khilji — Blog Post</h1>
       <div class="brand">
         <a href="/" aria-label="Asad Khilji home">
-          <img src="./images/AK.jpg" alt="Logo for Asad Khilji" width="56" height="56" decoding="async" loading="eager" />
+          <img src="../images/AK.jpg" alt="Logo for Asad Khilji" width="56" height="56" decoding="async" loading="eager" />
         </a>
       </div>
       <nav aria-label="Primary">
@@ -96,6 +127,8 @@
       </nav>
     </header>
 
+    <main>
+
     <!-- Article Header -->
     <section class="hero" style="background-image:none;">
       <article class="post">
@@ -107,7 +140,7 @@
             </p>
             <p>Drop LCP and boost conversion with these low-risk tweaks: image policy, app audit, render budget, fonts, and Liquid includes.</p>
           </div>
-          <img src="/images/shopify-speed.png" alt="Speed gauge overlaying a Shopify storefront" loading="lazy" />
+        
         </div>
 
         <!-- TOC -->
@@ -230,13 +263,11 @@ lighthouse-ci https://preview-url \
           Want help implementing these in your theme? <a href="/#reach-out">Book a free consult</a>—I’ll review your store’s LCP and hand you a week-one action plan.
         </p>
 
-        <p class="taglist">
-          Tags: <a href="/blog/tag/shopify">Shopify</a>, <a href="/blog/tag/performance">Performance</a>
-        </p>
+       
 
         <nav class="prev-next" aria-label="Post navigation">
-          <a class="button" href="/blog" rel="up">← Back to Blog</a>
-          <a class="button" href="/blog/css-clamp-type-scales" rel="next">Next: CSS <code>clamp()</code> Type Scales →</a>
+          <a class="button" href="/blogs.html" rel="up">← Back to Blog</a>
+          <!-- <a class="button" href="/" rel="next">Next: CSS <code>clamp()</code> Type Scales →</a> -->
         </nav>
       </article>
     </section>
@@ -283,6 +314,8 @@ lighthouse-ci https://preview-url \
         ></iframe>
       </div>
     </section>
+
+    </main>
 
     <!-- Footer -->
     <footer>
