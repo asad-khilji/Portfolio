@@ -3,12 +3,12 @@
 - This repository represents the source and documentation for asadkhilji.org a personal website showcasing services, projects, and technical expertise.
 
 ## Table of Contents
-- #About
-- #Core Skills
-- #Tech Stack
-- #Services
-- #Contributing
-- #Contact
+- [About](#about)
+- [Core Skills](#core-skills)
+- [Tech Stack](#tech-stack)
+- [Services](#services)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
 ## About
 - Asad Khilji designs and develops end-to-end web solutions, combining elegant UI/UX design with robust backend architecture.
